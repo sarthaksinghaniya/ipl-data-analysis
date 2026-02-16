@@ -1,0 +1,89 @@
+IPL DATA ANALYSIS REPORT
+==================================================
+
+Generated on: February 16, 2026 20:24:00
+
+TOTAL_MATCHES
+------------------------------
+756
+
+TOTAL_DELIVERIES
+------------------------------
+179078
+
+TOTAL_TEAMS
+------------------------------
+15
+
+TOTAL_CITIES
+------------------------------
+33
+
+SEASONS_COVERED
+------------------------------
+12
+
+MATCHES_SHAPE
+------------------------------
+(756, 18)
+
+DELIVERIES_SHAPE
+------------------------------
+(179078, 21)
+
+TOSS_ADVANTAGE_PCT
+------------------------------
+51.98
+
+MAX_RUN_MARGIN_TEAM
+------------------------------
+Mumbai Indians
+
+MAX_RUN_MARGIN
+------------------------------
+146
+
+MAX_WICKET_MARGIN_TEAM
+------------------------------
+Kolkata Knight Riders
+
+MAX_WICKET_MARGIN
+------------------------------
+10
+
+TOP_WINNING_TEAM
+------------------------------
+Mumbai Indians
+
+TOP_TEAM_WINS
+------------------------------
+109
+
+TOP_MOM_PLAYER
+------------------------------
+CH Gayle
+
+TOP_MOM_COUNT
+------------------------------
+21
+
+TOP_SIX_HITTER
+------------------------------
+CH Gayle
+
+TOP_SIX_COUNT
+------------------------------
+327
+
+BUSINESS_INSIGHTS
+------------------------------
+['Cities with higher match frequency indicate strong engagement potential.', 'Toss advantage exists but is not overwhelmingly decisive.', 'Certain teams dominate defending and chasing conditions.', 'Venue characteristics significantly impact match outcomes.', 'High six-hitting players contribute strongly to audience engagement.']
+
+PREFERRED_TOSS_DECISION
+------------------------------
+field
+
+DL_APPLIED_COUNT
+------------------------------
+19
+
