@@ -16,6 +16,7 @@ from src.data_loader import DataLoader
 from src.analyzer import IPLAnalyzer
 from src.visualizer import IPLVisualizer
 from src.report_generator import ReportGenerator
+from src.rohit_sharma_report_generator import RohitSharmaReportGenerator
 
 
 def main():
@@ -28,6 +29,7 @@ def main():
     # Initialize components
     loader = DataLoader()
     report_generator = ReportGenerator()
+    rohit_report_generator = RohitSharmaReportGenerator()
     
     # Load data
     print("\n1. Loading data...")
@@ -94,6 +96,27 @@ def main():
     print(f"\nTop 5 chasing teams:")
     print(defend_chase_stats['best_chasing_teams'].head())
     
+    # Rohit Sharma Career Analysis
+    print("\n3.1. Performing Rohit Sharma Career Analysis...")
+    rohit_analysis = analyzer.get_rohit_sharma_career_analysis()
+    
+    print(f"\nRohit Sharma Career Summary:")
+    print(f"Career Span: {rohit_analysis['career_span']['seasons'][0]} - {rohit_analysis['career_span']['seasons'][-1]}")
+    print(f"Total Seasons: {rohit_analysis['career_span']['total_seasons']}")
+    print(f"Total Matches: {rohit_analysis['career_span']['total_matches']}")
+    print(f"Total Runs: {rohit_analysis['basic_stats']['total_runs']}")
+    print(f"Strike Rate: {rohit_analysis['basic_stats']['strike_rate']}")
+    print(f"Average: {rohit_analysis['basic_stats']['average']}")
+    print(f"Centuries: {rohit_analysis['milestones']['centuries']}")
+    print(f"Half-centuries: {rohit_analysis['milestones']['half_centuries']}")
+    print(f"Man of Match Awards: {rohit_analysis['captaincy']['mom_awards']}")
+    
+    print(f"\nSeason-wise Performance (Last 5 seasons):")
+    recent_seasons = list(rohit_analysis['season_performance'].keys())[-5:]
+    for season in recent_seasons:
+        stats = rohit_analysis['season_performance'][season]
+        print(f"{season}: {stats['runs']} runs @ {stats['strike_rate']} SR, {stats['matches']} matches")
+    
     # Initialize visualizer
     print("\n3. Generating visualizations...")
     visualizer = IPLVisualizer()
@@ -117,6 +140,10 @@ def main():
         defend_chase_stats['best_venues_defending'],
         defend_chase_stats['best_venues_chasing']
     )
+    
+    # Generate Rohit Sharma visualizations
+    print("\n3.1. Generating Rohit Sharma visualizations...")
+    visualizer.plot_rohit_sharma_career_analysis(rohit_analysis)
     
     # Display business insights
     print("\n4. Business Insights:")
@@ -147,7 +174,8 @@ def main():
         'top_six_count': top_players['top_six_hitters'].iloc[0],
         'business_insights': insights,
         'preferred_toss_decision': toss_analysis['toss_decision_distribution'].index[0],
-        'dl_applied_count': dl_analysis['dl_applied_overall'].get(1, 0)
+        'dl_applied_count': dl_analysis['dl_applied_overall'].get(1, 0),
+        'rohit_sharma_analysis': rohit_analysis
     }
     
     # Generate PDF report
@@ -164,7 +192,15 @@ def main():
         os.path.join("output", "top_defending_teams.png"),
         os.path.join("output", "top_chasing_teams.png"),
         os.path.join("output", "best_venues_defending.png"),
-        os.path.join("output", "best_venues_chasing.png")
+        os.path.join("output", "best_venues_chasing.png"),
+        os.path.join("output", "rohit_season_performance.png"),
+        os.path.join("output", "rohit_team_performance.png"),
+        os.path.join("output", "rohit_dismissal_patterns.png"),
+        os.path.join("output", "rohit_phase_performance.png"),
+        os.path.join("output", "rohit_innings_performance.png"),
+        os.path.join("output", "rohit_consistency_analysis.png"),
+        os.path.join("output", "rohit_venue_performance.png"),
+        os.path.join("output", "rohit_milestones.png")
     ]
     
     # Filter only existing visualization files
@@ -173,11 +209,19 @@ def main():
     pdf_path = report_generator.generate_comprehensive_report(analysis_results, existing_viz_paths)
     txt_path = report_generator.generate_text_report(analysis_results)
     
+    # Generate Rohit Sharma specific reports
+    print("\n7. Generating Rohit Sharma specific reports...")
+    rohit_viz_paths = [path for path in existing_viz_paths if 'rohit' in path]
+    rohit_pdf_path = rohit_report_generator.generate_rohit_sharma_report(rohit_analysis, rohit_viz_paths)
+    rohit_txt_path = rohit_report_generator.generate_rohit_text_report(rohit_analysis)
+    
     print("\n" + "=" * 60)
     print("ANALYSIS COMPLETE!")
     print("Visualizations saved to 'output' directory")
-    print(f"PDF Report: {pdf_path}")
-    print(f"Text Report: {txt_path}")
+    print(f"Main PDF Report: {pdf_path}")
+    print(f"Main Text Report: {txt_path}")
+    print(f"Rohit Sharma PDF Report: {rohit_pdf_path}")
+    print(f"Rohit Sharma Text Report: {rohit_txt_path}")
     print("=" * 60)
 
 

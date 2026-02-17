@@ -1,0 +1,36 @@
+================================================================================
+ROHIT SHARMA - IPL CAREER ANALYSIS REPORT
+================================================================================
+
+Generated on: February 17, 2026 11:29:22
+
+CAREER OVERVIEW
+----------------------------------------
+Career Span: 2008 - 2019
+Total Seasons: 12
+Total Matches: 182
+Total Runs: 4,914
+Batting Average: 31.91
+Strike Rate: 131.25
+
+PERFORMANCE ANALYSIS
+----------------------------------------
+Centuries: 1
+Half-centuries: 36
+Man of Match Awards: 17
+
+RECENT SEASON PERFORMANCE
+----------------------------------------
+2015: 482 runs @ 144.74 SR in 16 matches
+2016: 489 runs @ 132.88 SR in 14 matches
+2017: 333 runs @ 121.98 SR in 16 matches
+2018: 297 runs @ 138.14 SR in 14 matches
+2019: 410 runs @ 130.16 SR in 15 matches
+
+KEY INSIGHTS
+----------------------------------------
+1. Excellent strike rate indicates aggressive batting approach, ideal for T20 format.
+2. Conversion of fifties to hundreds is impressive with 1 centuries.
+3. Strong leadership qualities evidenced by high win rate as captain.
+4. Exceptional death overs performance shows ability to accelerate under pressure.
+5. Long-term association with Mumbai Indians has contributed to team success and personal growth.

@@ -1,0 +1,93 @@
+IPL DATA ANALYSIS REPORT
+==================================================
+
+Generated on: February 17, 2026 11:29:21
+
+TOTAL_MATCHES
+------------------------------
+756
+
+TOTAL_DELIVERIES
+------------------------------
+179078
+
+TOTAL_TEAMS
+------------------------------
+15
+
+TOTAL_CITIES
+------------------------------
+33
+
+SEASONS_COVERED
+------------------------------
+12
+
+MATCHES_SHAPE
+------------------------------
+(756, 18)
+
+DELIVERIES_SHAPE
+------------------------------
+(179078, 21)
+
+TOSS_ADVANTAGE_PCT
+------------------------------
+51.98
+
+MAX_RUN_MARGIN_TEAM
+------------------------------
+Mumbai Indians
+
+MAX_RUN_MARGIN
+------------------------------
+146
+
+MAX_WICKET_MARGIN_TEAM
+------------------------------
+Kolkata Knight Riders
+
+MAX_WICKET_MARGIN
+------------------------------
+10
+
+TOP_WINNING_TEAM
+------------------------------
+Mumbai Indians
+
+TOP_TEAM_WINS
+------------------------------
+109
+
+TOP_MOM_PLAYER
+------------------------------
+CH Gayle
+
+TOP_MOM_COUNT
+------------------------------
+21
+
+TOP_SIX_HITTER
+------------------------------
+CH Gayle
+
+TOP_SIX_COUNT
+------------------------------
+327
+
+BUSINESS_INSIGHTS
+------------------------------
+['Cities with higher match frequency indicate strong engagement potential.', 'Toss advantage exists but is not overwhelmingly decisive.', 'Certain teams dominate defending and chasing conditions.', 'Venue characteristics significantly impact match outcomes.', 'High six-hitting players contribute strongly to audience engagement.']
+
+PREFERRED_TOSS_DECISION
+------------------------------
+field
+
+DL_APPLIED_COUNT
+------------------------------
+19
+
+ROHIT_SHARMA_ANALYSIS
+------------------------------
+{'career_span': {'seasons': [np.int64(2008), np.int64(2009), np.int64(2010), np.int64(2011), np.int64(2012), np.int64(2013), np.int64(2014), np.int64(2015), np.int64(2016), np.int64(2017), np.int64(2018), np.int64(2019)], 'total_seasons': 12, 'total_matches': 182}, 'basic_stats': {'total_runs': 4914, 'total_balls': 3744, 'strike_rate': 131.25, 'average': 31.91}, 'dismissal_analysis': {'caught': 103, 'bowled': 22, 'lbw': 11, 'run out': 9, 'caught and bowled': 6, 'stumped': 3}, 'season_performance': {np.int64(2008): {'runs': 404, 'balls': 273, 'dismissals': 11, 'average': 36.73, 'strike_rate': 147.99, 'matches': 12}, np.int64(2009): {'runs': 362, 'balls': 315, 'dismissals': 13, 'average': 27.85, 'strike_rate': 114.92, 'matches': 16}, np.int64(2010): {'runs': 404, 'balls': 302, 'dismissals': 14, 'average': 28.86, 'strike_rate': 133.77, 'matches': 16}, np.int64(2011): {'runs': 372, 'balls': 297, 'dismissals': 10, 'average': 37.2, 'strike_rate': 125.25, 'matches': 13}, np.int64(2012): {'runs': 433, 'balls': 342, 'dismissals': 14, 'average': 30.93, 'strike_rate': 126.61, 'matches': 16}, np.int64(2013): {'runs': 538, 'balls': 409, 'dismissals': 14, 'average': 38.43, 'strike_rate': 131.54, 'matches': 19}, np.int64(2014): {'runs': 390, 'balls': 302, 'dismissals': 13, 'average': 30.0, 'strike_rate': 129.14, 'matches': 15}, np.int64(2015): {'runs': 482, 'balls': 333, 'dismissals': 14, 'average': 34.43, 'strike_rate': 144.74, 'matches': 16}, np.int64(2016): {'runs': 489, 'balls': 368, 'dismissals': 11, 'average': 44.45, 'strike_rate': 132.88, 'matches': 14}, np.int64(2017): {'runs': 333, 'balls': 273, 'dismissals': 14, 'average': 23.79, 'strike_rate': 121.98, 'matches': 16}, np.int64(2018): {'runs': 297, 'balls': 215, 'dismissals': 12, 'average': 24.75, 'strike_rate': 138.14, 'matches': 14}, np.int64(2019): {'runs': 410, 'balls': 315, 'dismissals': 14, 'average': 29.29, 'strike_rate': 130.16, 'matches': 15}}, 'team_performance': {'Mumbai Indians': {'runs': 3744, 'balls': 2854, 'dismissals': 116, 'average': 32.28, 'strike_rate': 131.18, 'matches': 138}, 'Deccan Chargers': {'runs': 1170, 'balls': 890, 'dismissals': 38, 'average': 30.79, 'strike_rate': 131.46, 'matches': 44}}, 'venue_performance': {'Maharashtra Cricket Association Stadium': {'runs': 147, 'balls': 100, 'dismissals': 1, 'average': 147.0, 'strike_rate': 147.0, 'matches': 3}, 'Wankhede Stadium': {'runs': 1742, 'balls': 1293, 'dismissals': 49, 'average': 35.55, 'strike_rate': 134.73, 'matches': 60}, 'M Chinnaswamy Stadium': {'runs': 186, 'balls': 150, 'dismissals': 10, 'average': 18.6, 'strike_rate': 124.0, 'matches': 10}, 'Saurashtra Cricket Association Stadium': {'runs': 5, 'balls': 13, 'dismissals': 1, 'average': 5.0, 'strike_rate': 38.46, 'matches': 1}, 'Feroz Shah Kotla': {'runs': 285, 'balls': 210, 'dismissals': 9, 'average': 31.67, 'strike_rate': 135.71, 'matches': 10}, 'Rajiv Gandhi International Stadium, Uppal': {'runs': 440, 'balls': 307, 'dismissals': 10, 'average': 44.0, 'strike_rate': 143.32, 'matches': 14}, 'Eden Gardens': {'runs': 468, 'balls': 325, 'dismissals': 10, 'average': 46.8, 'strike_rate': 144.0, 'matches': 13}, 'MA Chidambaram Stadium, Chepauk': {'runs': 81, 'balls': 77, 'dismissals': 5, 'average': 16.2, 'strike_rate': 105.19, 'matches': 6}, 'Sawai Mansingh Stadium': {'runs': 25, 'balls': 45, 'dismissals': 5, 'average': 5.0, 'strike_rate': 55.56, 'matches': 5}, 'Punjab Cricket Association Stadium, Mohali': {'runs': 149, 'balls': 102, 'dismissals': 5, 'average': 29.8, 'strike_rate': 146.08, 'matches': 5}, 'Newlands': {'runs': 88, 'balls': 62, 'dismissals': 1, 'average': 88.0, 'strike_rate': 141.94, 'matches': 2}, 'Kingsmead': {'runs': 27, 'balls': 31, 'dismissals': 3, 'average': 9.0, 'strike_rate': 87.1, 'matches': 3}, 'SuperSport Park': {'runs': 72, 'balls': 79, 'dismissals': 3, 'average': 24.0, 'strike_rate': 91.14, 'matches': 4}, "St George's Park": {'runs': 38, 'balls': 32, 'dismissals': 1, 'average': 38.0, 'strike_rate': 118.75, 'matches': 1}, 'Buffalo Park': {'runs': 21, 'balls': 20, 'dismissals': 1, 'average': 21.0, 'strike_rate': 105.0, 'matches': 1}, 'De Beers Diamond Oval': {'runs': 18, 'balls': 29, 'dismissals': 2, 'average': 9.0, 'strike_rate': 62.07, 'matches': 2}, 'New Wanderers Stadium': {'runs': 98, 'balls': 62, 'dismissals': 2, 'average': 49.0, 'strike_rate': 158.06, 'matches': 3}, 'Dr DY Patil Sports Academy': {'runs': 72, 'balls': 69, 'dismissals': 5, 'average': 14.4, 'strike_rate': 104.35, 'matches': 5}, 'Barabati Stadium': {'runs': 97, 'balls': 77, 'dismissals': 3, 'average': 32.33, 'strike_rate': 125.97, 'matches': 3}, 'Sardar Patel Stadium, Motera': {'runs': 89, 'balls': 59, 'dismissals': 3, 'average': 29.67, 'strike_rate': 150.85, 'matches': 3}, 'Brabourne Stadium': {'runs': 31, 'balls': 29, 'dismissals': 2, 'average': 15.5, 'strike_rate': 106.9, 'matches': 2}, 'Vidarbha Cricket Association Stadium, Jamtha': {'runs': 132, 'balls': 105, 'dismissals': 3, 'average': 44.0, 'strike_rate': 125.71, 'matches': 3}, 'Himachal Pradesh Cricket Association Stadium': {'runs': 93, 'balls': 63, 'dismissals': 1, 'average': 93.0, 'strike_rate': 147.62, 'matches': 2}, 'Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium': {'runs': 124, 'balls': 98, 'dismissals': 3, 'average': 41.33, 'strike_rate': 126.53, 'matches': 4}, 'Subrata Roy Sahara Stadium': {'runs': 40, 'balls': 46, 'dismissals': 2, 'average': 20.0, 'strike_rate': 86.96, 'matches': 2}, 'Sheikh Zayed Stadium': {'runs': 27, 'balls': 20, 'dismissals': 1, 'average': 27.0, 'strike_rate': 135.0, 'matches': 1}, 'Dubai International Cricket Stadium': {'runs': 53, 'balls': 51, 'dismissals': 3, 'average': 17.67, 'strike_rate': 103.92, 'matches': 3}, 'Sharjah Cricket Stadium': {'runs': 4, 'balls': 5, 'dismissals': 1, 'average': 4.0, 'strike_rate': 80.0, 'matches': 1}, 'Punjab Cricket Association IS Bindra Stadium, Mohali': {'runs': 0, 'balls': 2, 'dismissals': 1, 'average': 0.0, 'strike_rate': 0.0, 'matches': 1}, 'Green Park': {'runs': 30, 'balls': 17, 'dismissals': 1, 'average': 30.0, 'strike_rate': 176.47, 'matches': 1}, 'Holkar Cricket Stadium': {'runs': 24, 'balls': 15, 'dismissals': 0, 'average': 0, 'strike_rate': 160.0, 'matches': 1}, 'M. Chinnaswamy Stadium': {'runs': 48, 'balls': 33, 'dismissals': 1, 'average': 48.0, 'strike_rate': 145.45, 'matches': 1}, 'IS Bindra Stadium': {'runs': 32, 'balls': 18, 'dismissals': 1, 'average': 32.0, 'strike_rate': 177.78, 'matches': 1}, 'Rajiv Gandhi Intl. Cricket Stadium': {'runs': 26, 'balls': 28, 'dismissals': 2, 'average': 13.0, 'strike_rate': 92.86, 'matches': 2}, 'Feroz Shah Kotla Ground': {'runs': 31, 'balls': 22, 'dismissals': 1, 'average': 31.0, 'strike_rate': 140.91, 'matches': 1}, 'M. A. Chidambaram Stadium': {'runs': 71, 'balls': 50, 'dismissals': 2, 'average': 35.5, 'strike_rate': 142.0, 'matches': 2}}, 'innings_performance': {'inning_1': {'runs': 2837, 'balls': 2067, 'dismissals': 87, 'average': 32.61, 'strike_rate': 137.25}, 'inning_2': {'runs': 2077, 'balls': 1677, 'dismissals': 67, 'average': 31.0, 'strike_rate': 123.85}}, 'phase_performance': {'powerplay': {'runs': 982, 'balls': 864, 'wickets': 33, 'strike_rate': 113.66, 'average': 29.76}, 'middle': {'runs': 2473, 'balls': 2087, 'wickets': 66, 'strike_rate': 118.5, 'average': 37.47}, 'death': {'runs': 1447, 'balls': 793, 'wickets': 55, 'strike_rate': 182.47, 'average': 26.31}}, 'captaincy': {'mom_awards': 17, 'wins_as_captain': 17, 'win_rate_as_captain': 100.0}, 'milestones': {'highest_scores': [109, 98, 97, 87, 85, 84, 79, 76, 74, 73], 'centuries': 1, 'half_centuries': 36}, 'consistency': {'mean_score': np.float64(27.0), 'median_score': np.float64(19.0), 'std_deviation': np.float64(24.27), 'coefficient_of_variation': np.float64(89.88), 'scores_above_50': 37, 'scores_above_30': 68, 'ducks': 11, 'total_innings': 182}, 'vs_bowling_types': {'PP Chawla': {'runs_conceded': 146, 'balls_faced': 113, 'dismissals': 1, 'strike_rate': 129.2, 'average': 146.0}, 'SP Narine': {'runs_conceded': 122, 'balls_faced': 111, 'dismissals': 6, 'strike_rate': 109.91, 'average': 20.33}, 'UT Yadav': {'runs_conceded': 145, 'balls_faced': 97, 'dismissals': 4, 'strike_rate': 149.48, 'average': 36.25}, 'R Ashwin': {'runs_conceded': 77, 'balls_faced': 94, 'dismissals': 1, 'strike_rate': 81.91, 'average': 77.0}, 'A Mishra': {'runs_conceded': 80, 'balls_faced': 85, 'dismissals': 6, 'strike_rate': 94.12, 'average': 13.33}, 'DJ Bravo': {'runs_conceded': 84, 'balls_faced': 75, 'dismissals': 5, 'strike_rate': 112.0, 'average': 16.8}, 'RA Jadeja': {'runs_conceded': 71, 'balls_faced': 74, 'dismissals': 3, 'strike_rate': 95.95, 'average': 23.67}, 'M Morkel': {'runs_conceded': 119, 'balls_faced': 69, 'dismissals': 2, 'strike_rate': 172.46, 'average': 59.5}, 'R Bhatia': {'runs_conceded': 100, 'balls_faced': 63, 'dismissals': 2, 'strike_rate': 158.73, 'average': 50.0}, 'P Kumar': {'runs_conceded': 81, 'balls_faced': 63, 'dismissals': 1, 'strike_rate': 128.57, 'average': 81.0}, 'Imran Tahir': {'runs_conceded': 79, 'balls_faced': 63, 'dismissals': 1, 'strike_rate': 125.4, 'average': 79.0}, 'Shakib Al Hasan': {'runs_conceded': 82, 'balls_faced': 62, 'dismissals': 1, 'strike_rate': 132.26, 'average': 82.0}, 'SR Watson': {'runs_conceded': 82, 'balls_faced': 56, 'dismissals': 1, 'strike_rate': 146.43, 'average': 82.0}, 'S Nadeem': {'runs_conceded': 69, 'balls_faced': 56, 'dismissals': 0, 'strike_rate': 123.21, 'average': inf}, 'SK Warne': {'runs_conceded': 52, 'balls_faced': 52, 'dismissals': 3, 'strike_rate': 100.0, 'average': 17.33}}}
+
